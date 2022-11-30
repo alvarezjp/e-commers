@@ -14,10 +14,9 @@
         height: 352px;
     }
 }
-
 @media screen and (max-width: 768px) {
     .banner {
-        height: 192px;
+        height: 352px;
     }
 }
 

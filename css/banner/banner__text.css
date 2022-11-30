@@ -9,6 +9,7 @@
     font-size: 52px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    text-shadow: 1px 1px black;
 }
 
 
@@ -18,6 +19,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     margin-top: 16px;
+    text-shadow: 1px 1px black;
 }
 
 .banner__text__button {
@@ -60,24 +62,14 @@
 
 }
 
-@media screen and (max-width: 554px) {
-    
-    .banner__text{
-        margin-bottom: 10px;
-    }
-    .banner__text__month {
-        font-size: 36px;
-    }
-    
-    
-    .banner__text__product {
-        font-size: 14px;
-    }
-
-}
-
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 360px) {
     .banner__text__month {
         font-size: 22px;
+        text-shadow: 0.8px 0.8px black;
     }
+    .banner__text__product {
+        font-size: 14px;
+        text-shadow: 0.8px 0.8px black;
+    }
+    
 }
