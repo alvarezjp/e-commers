@@ -1,0 +1,83 @@
+.banner__text {
+    width: var(--centrado-desktop);
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+
+.banner__text__month {
+    color: white;
+    font-size: 52px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+.banner__text__product {
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.banner__text__button {
+    width: 129px;
+    height: 51px;
+    margin-top: 16px;
+    background: #2A7AE4;
+    border: none;
+    /* Fuente */
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 950px) {
+    .banner__text {
+        width: var(--centrado-tablet);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner__text {
+        width: var(--centrado-mobile);
+        margin-bottom: 20px;
+    }
+
+
+    .banner__text__button {
+        width: 118px;
+        height: 40px;
+        padding: 12px 16px;
+        /* fuente */
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 554px) {
+    
+    .banner__text{
+        margin-bottom: 10px;
+    }
+    .banner__text__month {
+        font-size: 36px;
+    }
+    
+    
+    .banner__text__product {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .banner__text__month {
+        font-size: 22px;
+    }
+}

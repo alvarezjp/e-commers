@@ -1,0 +1,21 @@
+.contact__box {
+    width: auto;
+    height: auto;
+}
+
+.contact__logo {
+    width: 176px;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact__box {
+        width: 176px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+}

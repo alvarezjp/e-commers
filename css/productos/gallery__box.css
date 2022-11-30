@@ -1,0 +1,33 @@
+.gallery__box{
+    width: 85vw;
+    height: auto;
+    display: grid; 
+    justify-content: center;  
+    column-gap: 16px;
+    row-gap:64px ;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* border: 1px solid red; */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .gallery__box{
+        width: 90vw;
+        height: 252px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .gallery__box{
+        width: 89vw;
+        height: auto;
+        display: grid;
+        margin-top: none;
+        grid-template-columns: auto auto;
+        row-gap: 16px;       
+        
+    }    
+}
+

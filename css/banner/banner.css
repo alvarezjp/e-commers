@@ -1,0 +1,28 @@
+.banner {
+    height: 352px;
+    background-image: url('../../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+@media screen and (max-width: 950px) {
+    .banner {
+        height: 352px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 192px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .banner {
+        height: 192px;
+    }
+}

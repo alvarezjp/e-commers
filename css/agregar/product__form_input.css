@@ -1,0 +1,43 @@
+.product__form_input {
+    width: 559px;
+    height: 56px;
+    box-sizing: border-box;
+    padding: 8px;
+    /* border: none; */
+    /* font size */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+    border: none;
+}
+
+.product__form_text {
+    width: 559px;
+    height: 82px;
+    padding: 8px;
+    box-sizing: border-box;
+    /* font size */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+    border: none;
+}
+
+.product__form_button {
+    width: 559px;
+    height: 51px;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #2A7AE4;
+    /* font */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}

@@ -1,0 +1,37 @@
+.login {
+    width: 98.5vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    
+}
+
+
+
+.login h1 {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #464646;
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        width: 97.5vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .login{
+        height: 40vh;
+    }
+    .login h1{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,55 @@
+.gallery__title {
+    width: 85vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__title h1 {
+    width: auto;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.gallery__title__text {
+    width: 97px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+}
+
+.gallery__title__img {
+    width: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__title h1 {
+        font-size: 22px;
+    }
+
+    .gallery__title__text {
+        width: 90px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .gallery__title {
+        width: 89vw;
+        
+    }
+    .gallery__title__text {
+        width: 90px;
+        font-size: 14px;
+    }
+}

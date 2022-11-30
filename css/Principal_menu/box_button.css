@@ -1,0 +1,38 @@
+.principal__button {
+    width: 182px ;    
+    height: 51px;    
+    border: 1px solid #2A7AE4;
+    background: white;
+    color: #2A7AE4; 
+}
+
+.principal__button a{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+#lupa{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .principal__button {
+        width: 166px;
+        height: 40px;      
+    }
+}
+
+@media screen and (max-width: 536px){
+    .box_button{
+        display: flex;
+    }
+    .principal__button{
+        width: 133px;
+        height: 40px;  
+        margin-right: 13vw;     
+    }
+    #lupa{
+        display: block;
+    }
+}
+

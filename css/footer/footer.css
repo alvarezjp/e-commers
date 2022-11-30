@@ -1,0 +1,35 @@
+.footer {
+    width: 98.5vw;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    display: none;
+}
+
+.footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* tipografia */
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 97.5vw;
+        height: 110px;
+        
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer{
+        width: 93.5vw;
+    }
+}

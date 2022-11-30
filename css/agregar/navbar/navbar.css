@@ -1,0 +1,25 @@
+.navbar{
+    width: 98.5vw;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        width: 97vw;
+        height: 72px;
+        
+    }
+}
+
+@media screen and (max-width: 360px){
+    .navbar{
+        width: 95vw;
+        height: 72px;
+        
+        
+    }
+}

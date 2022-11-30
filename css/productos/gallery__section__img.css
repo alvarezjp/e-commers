@@ -1,0 +1,40 @@
+.gallery__section__img{
+    width: 176px;
+    height:174px;
+    text-align: right;
+}
+
+.img__dump{
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+.img__pencil{
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .gallery__section__img{
+        width: 164px;
+        height: 174px;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    .gallery__section__img{
+        width: 156px;
+        height: 174px;
+        
+    }
+    
+}

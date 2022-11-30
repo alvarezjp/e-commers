@@ -1,0 +1,42 @@
+.gallery__section__text{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+.gallery__section__text__name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    text-transform: capitalize;
+    
+}
+
+.gallery__section__text__price {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.gallery__section__text__link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 360px) {
+}

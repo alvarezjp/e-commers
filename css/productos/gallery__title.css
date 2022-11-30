@@ -1,0 +1,32 @@
+.gallery__title {
+    width: 85vw;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    /* border: 1px solid green; */
+}
+
+.gallery__title h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.gallery__title button {
+    width: 163px;
+    height: 51px;
+    border: none;
+    background: #2A7AE4;
+
+    /* font size */
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}

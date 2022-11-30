@@ -1,0 +1,35 @@
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.contact__list li {
+    width: 176px;
+    height: 19px;
+}
+
+.contact__list a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .contact__list {
+        width: 176px;
+        height: 234px;
+        grid-area: 2/1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contact__list{
+        text-align: center;
+        margin: 16px ;
+    }
+}

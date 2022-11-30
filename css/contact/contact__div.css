@@ -1,0 +1,35 @@
+.contact__div {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.contact__div h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+@media screen and (max-width: 768px) {
+    .contact__div {
+        /* border: 1px solid red; */
+        grid-row: 1/3;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contact__div {
+        width: 328px;
+        
+    }
+
+    .contact__div h2 {
+        width: 320;
+    }
+
+}

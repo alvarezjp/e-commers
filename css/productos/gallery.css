@@ -1,0 +1,33 @@
+.gallery {
+    width: 98.5vw;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        width: 98.5vw;
+        margin-bottom: 32px;
+    }
+   
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+    .gallery {
+        width: 95vw;
+        gap: 32px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
