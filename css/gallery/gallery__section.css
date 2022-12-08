@@ -1,33 +1,33 @@
-.gallery__section{
+.gallery__section {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 8px;
     box-sizing: border-box;
-    
+
 }
 
-@media screen and (max-width: 768px) {
+.gallery__section__img {
+    width: 176px;
+    height: 174px;
+}
 
-    .gallery__section__img{
+@media screen and (max-width: 837px) {
+
+    .gallery__section__img {
         width: 164px;
         height: 174px;
     }
-    
+
 }
 
 
-@media screen and (max-width: 360px) {
-    .gallery__section{
-        width: 156px;
-        height: auto; 
-        
-    }
-    .gallery__section__img{
+@media screen and (max-width: 549px) {
+    .gallery__section__img {
         width: 156px;
         height: 174px;
-        
+
     }
-    
+
 }

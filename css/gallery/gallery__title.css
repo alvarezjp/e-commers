@@ -1,9 +1,11 @@
 .gallery__title {
-    width: 85vw;
+    width: var(--centrado-desktop);
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid rebeccapurple;
+    box-sizing: border-box;
 }
 
 .gallery__title h1 {
@@ -32,7 +34,18 @@
     width: 16px;
 }
 
+@media screen and (max-width: 950px) {
+    .gallery__title{
+     width: var(--centrado-tablet);
+    }
+}
+
 @media screen and (max-width: 768px) {
+
+    .gallery__title{
+        width: var(--centrado-mobile);
+       }
+
     .gallery__title h1 {
         font-size: 22px;
     }
