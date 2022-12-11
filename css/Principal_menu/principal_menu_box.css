@@ -1,13 +1,10 @@
 .principal_menu_box {
-    width: 100vw;
-    padding-left: var(--padding-desktop);
-    padding-right: var(--padding-desktop);
+    width: var(--centrado-desktop);
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-
 }
 
 .logo_box {

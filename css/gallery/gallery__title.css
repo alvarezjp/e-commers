@@ -1,11 +1,12 @@
 .gallery__title {
-    width: var(--centrado-desktop);
-    height: auto;
+    width: 1136px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid rebeccapurple;
     box-sizing: border-box;
+    border: 1px solid red;
+
+       
 }
 
 .gallery__title h1 {
@@ -15,60 +16,49 @@
     color: black;
     font-size: 32px;
     font-weight: bold;
+    border: 1px solid green;
 }
 
 .gallery__title__text {
     width: 97px;
-    height: 16px;
+    height: 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     color: #2A7AE4;
-}
+    border: 1px solid black;
 
-.gallery__title__img {
-    width: 16px;
+    /* background */
+    background-image: url('../../img/star_wars/Vector.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right ;
 }
 
 
 @media screen and (max-width: 1140px) {
     .gallery__title{
-        width: 100vw;
+        width: auto;
     }
 }
-@media screen and (max-width: 950px) {
-    .gallery__title{
-     width: var(--centrado-tablet);
-    }
-}
+
 
 @media screen and (max-width: 768px) {
-
-    .gallery__title{
-        width: var(--centrado-mobile);
-       }
 
     .gallery__title h1 {
         font-size: 22px;
     }
 
-    .gallery__title__text {
-        width: 90px;
-    }
 
 }
 
-@media screen and (max-width: 360px) {
-    .gallery__title {
-        width: 89vw;
-        
-    }
+@media screen and (max-width: 460px) {
     .gallery__title__text {
-        width: 90px;
         font-size: 14px;
     }
 }
