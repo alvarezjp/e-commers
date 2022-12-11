@@ -2,15 +2,11 @@
     height: auto;
     display: flex;
     align-items: center;
-    /* padding-left: var(--padding-desktop);
-    padding-right:var(--padding-desktop) ; */
     flex-direction: column;
-    margin-bottom: 64px;
-    margin-top: 60px;
-    gap: 64px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    gap: 32px;
     box-sizing: border-box;
-    border: 1px solid blue;
-
 }
 
 @media screen and (max-width: 1140px) {

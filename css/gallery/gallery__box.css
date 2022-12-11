@@ -1,15 +1,11 @@
 .gallery__box {
     width: var(--centrado-desktop);
     display: flex;
-    height: 270px;
+    height: 258px;
     /* justify-content: space-between;  */
     gap: 16px;
     margin-top: 2vh;
-    box-sizing: border-box;
-    border: 1px solid green;
-    
-
-
+    box-sizing: border-box;  
 }
 
 @media screen and (max-width: 1140px) {
@@ -20,9 +16,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .gallery__6,.gallery__5{
+    /* .gallery__6,.gallery__5{
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 460px) {}
