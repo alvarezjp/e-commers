@@ -1,5 +1,7 @@
 .banner__text {
     width: var(--centrado-desktop);
+    padding-left: var(--padding-desktop);
+    padding-right: var(--padding-desktop);
     box-sizing: border-box;
     margin-bottom: 32px;
     padding-bottom: 6px;
@@ -44,14 +46,16 @@
 
 @media screen and (max-width: 1140px) {
     .banner__text{
-        padding-left: 16px;
+        padding-left:var(--padding-1140);
+        padding-right: var(--padding-1140);
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .banner__text {
-        width: var(--centrado-tablet);
+        padding-left:var(--padding-768);
+        padding-right: var(--padding-768);
         margin-bottom: 48px;
     }
 
@@ -68,7 +72,8 @@
 
 @media screen and (max-width: 460px) {
     .banner__text{
-        width: var(--centrado-mobile);
+        padding-left:var(--padding-460);
+        padding-right: var(--padding-460);
         margin-bottom: 25px;
     }
     .banner__text__month {

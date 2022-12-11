@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    display: none;
 }
 
 @media screen and (max-width: 768px) {

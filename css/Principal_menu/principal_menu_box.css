@@ -1,7 +1,7 @@
 .principal_menu_box {
     width: 100vw;
-    padding-left: var(--padding-deskop);
-    padding-right: var(--padding-deskop);
+    padding-left: var(--padding-desktop);
+    padding-right: var(--padding-desktop);
     height: auto;
     display: flex;
     align-items: center;
