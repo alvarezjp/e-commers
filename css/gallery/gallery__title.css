@@ -34,6 +34,12 @@
     width: 16px;
 }
 
+
+@media screen and (max-width: 1140px) {
+    .gallery__title{
+        width: 100vw;
+    }
+}
 @media screen and (max-width: 950px) {
     .gallery__title{
      width: var(--centrado-tablet);

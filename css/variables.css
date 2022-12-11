@@ -1,5 +1,16 @@
 :root {
-    --centrado-desktop: 1136px;
-    --centrado-tablet: 704px;
-    --centrado-mobile: 328px;
+    --centrado-desktop: 100vw;
+    --padding-deskop: 152px;
+
+    /* paddin para 1140 */
+    --padding-1140: 16px;
+
+    /* padding para  768*/
+    --padding-768:32px;
+
+    /* padding para 460*/
+    --padding-460: 16px;
+
+    --centrado-tablet: 768px;
+    --centrado-mobile: 360px;
 }

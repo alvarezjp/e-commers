@@ -9,17 +9,14 @@
     
 }
 
-@media screen and (max-width: 1354px) {
+@media screen and (max-width: 1140px) {
     .gallery__6{
         display: none;
     }
-}
-
-@media screen and (max-width: 1125px) {
-    .gallery__5{
-        display: none;
+    .gallery__box{
+        width: 100vw;
+        justify-content: flex-start;
     }
- 
 }
 
 @media screen and (max-width: 950px) {

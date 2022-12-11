@@ -13,6 +13,14 @@
     height: 174px;
 }
 
+/* @media screen and (max-width: 1140px) {
+    .gallery__section__img{
+        width: 15vw;
+        height: auto;
+        border: 1px solid red;
+    }
+} */
+
 @media screen and (max-width: 837px) {
 
     .gallery__section__img {
