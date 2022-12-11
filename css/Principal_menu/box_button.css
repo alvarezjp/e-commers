@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 536px){
+@media screen and (max-width: 460px){
     .box_button{
         display: flex;
     }

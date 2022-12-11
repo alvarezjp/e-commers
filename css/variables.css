@@ -1,5 +1,5 @@
 :root {
-    --centrado-desktop: 84vw;
-    --centrado-tablet: 90vw;
-    --centrado-mobile: 95vw;
+    --centrado-desktop: 1136px;
+    --centrado-tablet: 704px;
+    --centrado-mobile: 328px;
 }
