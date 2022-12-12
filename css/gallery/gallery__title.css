@@ -1,9 +1,9 @@
 .gallery__title {
-    width: 85vw;
-    height: auto;
+    width: 1136px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;       
 }
 
 .gallery__title h1 {
@@ -17,39 +17,43 @@
 
 .gallery__title__text {
     width: 97px;
-    height: 16px;
+    height: 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     color: #2A7AE4;
+
+    /* background */
+    background-image: url('../../img/star_wars/Vector.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right ;
 }
 
-.gallery__title__img {
-    width: 16px;
+
+@media screen and (max-width: 1140px) {
+    .gallery__title{
+        width: auto;
+    }
 }
+
 
 @media screen and (max-width: 768px) {
+
     .gallery__title h1 {
         font-size: 22px;
     }
 
-    .gallery__title__text {
-        width: 90px;
-    }
 
 }
 
-@media screen and (max-width: 360px) {
-    .gallery__title {
-        width: 89vw;
-        
-    }
+@media screen and (max-width: 460px) {
     .gallery__title__text {
-        width: 90px;
         font-size: 14px;
     }
 }

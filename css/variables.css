@@ -1,5 +1,23 @@
 :root {
-    --centrado-desktop: 84.5vw;
-    --centrado-tablet: 90vw;
-    --centrado-mobile: 95vw;
+    --centrado-desktop: 1136px;
+    --padding-desktop: 152px;
+
+    /* paddin para 1140 */
+    --padding-1140: 16px;
+
+
+        /* contact-form tamaño de los input */
+    --input-1140:45vw;
+
+    /* --------------------------- */
+
+    /* padding para  768*/
+    --padding-768:32px;
+
+    --input-768:45vw;
+
+    /* padding para 460*/
+    --padding-460: 16px;
+    --input-460:78vw;
+  
 }

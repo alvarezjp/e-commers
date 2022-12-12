@@ -9,18 +9,13 @@
     align-items: end;
 }
 
-@media screen and (max-width: 950px) {
-    .banner {
-        height: 352px;
-    }
-}
 @media screen and (max-width: 768px) {
     .banner {
         height: 352px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
     .banner {
         height: 192px;
     }

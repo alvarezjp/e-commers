@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 2px solid black; */
     box-sizing: border-box;
 }
 
@@ -33,39 +32,50 @@
 
     background-image: url('../../img/lupa_search.svg');
     background-repeat: no-repeat;
-    background-position-y:center;
-    background-position-x: 95% ;
+    background-position-y: center;
+    background-position-x: 95%;
 
-    
+
 
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1140px) {
     .principal_menu_box {
-        width: var(--centrado-tablet);
+        padding-left: var(--padding-1140);
+        padding-right: var(--padding-1140);
     }
-    .searchbar_input{
-        width: 300px;
+
+    .searchbar_input {
+        width: 40vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     .principal_menu_box {
-        width: var(--centrado-mobile);
+        padding-left: var(--padding-768);
+        padding-right: var(--padding-768);
         height: 72px;
     }
-    .logo__img{
+
+    .logo__img {
         width: 100px;
         height: 28px;
     }
-    .searchbar_input{
+
+    .searchbar_input {
         width: 39vw;
     }
 
 }
 
-@media screen and (max-width: 536px) {
-    .searchbar_input{
+@media screen and (max-width: 460px) {
+    .principal_menu_box {
+        padding-left: var(--padding-460);
+        padding-right: var(--padding-460);
+
+    }
+
+    .searchbar_input {
         display: none;
     }
 }

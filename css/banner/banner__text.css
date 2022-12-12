@@ -2,9 +2,12 @@
     width: var(--centrado-desktop);
     box-sizing: border-box;
     margin-bottom: 32px;
+    padding-bottom: 6px;
+    /* border: 1px solid red; */
 }
 
 .banner__text__month {
+    box-sizing: border-box;
     color: white;
     font-size: 52px;
     font-family: 'Raleway', sans-serif;
@@ -14,6 +17,7 @@
 
 
 .banner__text__product {
+    box-sizing: border-box;
     color: white;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
@@ -23,6 +27,7 @@
 }
 
 .banner__text__button {
+    box-sizing: border-box;
     width: 129px;
     height: 51px;
     margin-top: 16px;
@@ -37,18 +42,19 @@
     box-sizing: border-box;
 }
 
-
-@media screen and (max-width: 950px) {
-    .banner__text {
-        width: var(--centrado-tablet);
+@media screen and (max-width: 1140px) {
+    .banner__text{
+        padding-left:var(--padding-1140);
+        padding-right: var(--padding-1140);
     }
 }
 
 
 @media screen and (max-width: 768px) {
     .banner__text {
-        width: var(--centrado-mobile);
-        margin-bottom: 20px;
+        padding-left:var(--padding-768);
+        padding-right: var(--padding-768);
+        margin-bottom: 48px;
     }
 
 
@@ -62,7 +68,12 @@
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
+    .banner__text{
+        padding-left:var(--padding-460);
+        padding-right: var(--padding-460);
+        margin-bottom: 25px;
+    }
     .banner__text__month {
         font-size: 22px;
         text-shadow: 0.8px 0.8px black;

@@ -22,14 +22,14 @@
     }
 }
 
-@media screen and (max-width: 536px){
+@media screen and (max-width: 460px){
     .box_button{
         display: flex;
     }
     .principal__button{
         width: 133px;
         height: 40px;  
-        margin-right: 13vw;     
+        margin-right: 35.5px;     
     }
     #lupa{
         display: block;
