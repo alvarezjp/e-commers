@@ -5,6 +5,7 @@
     align-items: center;
     background: #EAF2FD;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .contact__frame {
