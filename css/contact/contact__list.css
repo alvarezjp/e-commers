@@ -1,8 +1,8 @@
 .contact__list {
+    width: 176px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    
 }
 
 .contact__list li {
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
     .contact__list{
         text-align: center;
         margin: 16px ;

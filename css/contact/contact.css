@@ -1,49 +1,59 @@
 .contact {
-    width: 98.1vw;
     height: 368px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #EAF2FD;
     box-sizing: border-box;
-    display: none;
 }
 
 .contact__frame {
-    width: 85vw;
+    width: var(--centrado-desktop);
     height: auto;
     display: flex;
-    gap: 112px;
+    justify-content: space-between;
     box-sizing: border-box;
 
 
 }
-
-@media screen and (max-width: 768px) {
-    .contact {
-        width: 97.8vw;
+@media screen and (max-width: 1140px) {
+    .contact{
+        justify-content: normal;
+        padding-left: var(--padding-1140);
+        padding-right: var(--padding-1140);
+        
     }
-
     .contact__frame {
-        width: 91vw;
-        height: 300px;
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 0px;
-        row-gap: 16px;
-        column-gap: 78px;
+        width: 100vw;
+        gap: 8px;
+        
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
+    .contact{
+        padding-left: var(--padding-768);
+        padding-right: var(--padding-768);
+    }
+    .contact__frame {
+        height: 300px;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 16px;
+        column-gap: 5vw;
+    }
+}
+
+@media screen and (max-width: 460px) {
     .contact {
-        width: 95vw;
         height: auto;
         padding-bottom: 16px;
+        padding-left: var(--padding-460);
+        padding-right: var(--padding-460);
+        
     }
 
     .contact__frame {
-        width: 328px;
         height: auto;
         display: flex;
         flex-direction: column;
