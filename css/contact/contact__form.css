@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 
 .form__input {
@@ -35,6 +34,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #A2A2A2;
+    box-sizing: border-box;
     box-sizing: border-box;
 
 }
@@ -94,12 +94,12 @@ z
     
 
     .form__input {
-        width: var(--input-460) ;
+        width: auto ;
         height: 56px;
     }
 
     .form__text {
-        width: var(--input-460) ;
+        width: auto;
         height: 82px;
     }
 

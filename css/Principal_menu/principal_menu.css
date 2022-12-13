@@ -2,9 +2,7 @@
     height: 115px;
     display: flex;
     justify-content: center;
-    box-sizing: border-box;
-    border: 1px solid blue;
-    
+    box-sizing: border-box; 
 }
 
 @media screen and (max-width: 768px){

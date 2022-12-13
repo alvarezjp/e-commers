@@ -1,6 +1,7 @@
 .contact__box {
     width: auto;
     height: auto;
+    border: 1px solid red;
 }
 
 .contact__logo {
@@ -16,6 +17,9 @@
 
 }
 
-@media screen and (max-width: 360px) {
-
+@media screen and (max-width: 460px) {
+    .contact__box {
+        width: auto;
+        text-align: center;
+    }
 }
