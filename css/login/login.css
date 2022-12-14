@@ -1,18 +1,19 @@
 .login {
-    width: 98.5vw;
-    height: 70vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #F5F5F5;
-    
+    box-sizing: border-box;
+    padding-top: 92px;
+    padding-bottom: 92px;
 }
 
 
 
 .login h1 {
-    
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -22,16 +23,18 @@
 
 @media screen and (max-width: 768px) {
     .login {
-        width: 97.5vw;
-        height: 50vh;
+        padding-top: 45px;
+        padding-bottom: 61px;
     }
 }
 
 @media screen and (max-width: 360px) {
-    .login{
-        height: 40vh;
+    .login {
+        padding-top: 97px;
+        padding-bottom: 66px;
     }
-    .login h1{
+
+    .login h1 {
         font-size: 16px;
     }
 }
