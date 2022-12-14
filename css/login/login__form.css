@@ -1,7 +1,5 @@
 .login__form {
-    /* border: 1px solid red; */
     width: 423px;
-    height: 240px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -44,12 +42,18 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {}
+.login__form__button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
-@media screen and (max-width: 360px) {
+.login__form__button a:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
     .login__form {
         width: 275px;
-        height: 189px;
         align-items: center;
     }
 
@@ -68,5 +72,9 @@
         height: 40px;
         font-size: 14px;
     }
+}
+
+@media screen and (max-width: 360px) {
+    
 
 }

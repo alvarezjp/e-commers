@@ -11,9 +11,10 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/Principal_menu/principal_menu.css">
-    <link rel="stylesheet" href="./css/Principal_menu/principal_menu_box.css">
-    <link rel="stylesheet" href="./css/Principal_menu/box_button.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/login/login_principal_menu/login_box_button.css">
+    <link rel="stylesheet" href="./css/login/login_principal_menu/login_principal_menu.css">
+    <link rel="stylesheet" href="./css/login/login_principal_menu/login_principal_menu_box.css">
     <link rel="stylesheet" href="./css/login/login.css">
     <link rel="stylesheet" href="./css/login/login__form.css">
     <link rel="stylesheet" href="./css/contact/contact.css">
@@ -28,13 +29,14 @@
 <body>
     <!-- Seccion de menu principal / buscador / Boton de inicio  -->
     <section class="principal_menu">
-        <div class="principal_menu_box">
-            <a href="./index.html"><img class="logo__img" src="./img/Logo.svg" alt=""></a>
-            <div class="serchBar">
-                <img src="./img/Barra de pesquisa.svg" alt="" class="serchBar__img">
+        <div class="principal_menu_box">            
+            <div class="logo_box">
+                <a href="./index.html"><img class="logo__img" src="./img/Logo.svg" alt=""></a>
+                <div class="searchbar">
+                    <input class="searchbar_input" type="text" name="" id="" placeholder="¿Que deseas buscar?">
+                </div>
             </div>
-            <div class="box_button">
-                <button type="button" class="principal__button"><a href="./login.html">Login</a></button>
+            <div class="box_button">                
                 <img id="lupa" src="./img/lupa.svg" alt="imagen no encontrada">
             </div>
         </div>
@@ -67,7 +69,7 @@
                 <h2>Hable con nosotros</h2>
                 <form class="contact__form" name="form">
                     <input class="form__input" type="text" name="nombre" placeholder="Nombre">
-                    <textarea class="form__text" name="Mensaje" id="" cols="100" rows="1"
+                    <textarea class="form__text" name="Mensaje" id="" cols="1" rows="1"
                         placeholder="Escribre tu mensaje"></textarea>
                     <button class="form__button" type="submit">Enviar mensaje</button>
                 </form>
