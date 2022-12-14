@@ -5,6 +5,7 @@
     align-items: center;
     background: #EAF2FD;
     box-sizing: border-box;
+    display: none;
 }
 
 .contact__frame {
@@ -41,6 +42,7 @@
         grid-template-columns: auto auto;
         row-gap: 16px;
         column-gap: 5vw;
+        border: 1px solid red;
     }
 }
 
