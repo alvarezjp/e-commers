@@ -2,8 +2,7 @@
     height: 102px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    display: none;
+    justify-content: center;
 }
 
 .footer__box {

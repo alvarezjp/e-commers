@@ -26,8 +26,7 @@
     }
     .contact__frame {
         width: 100vw;
-        gap: 8px;
-        
+        gap: 8px;        
     }
 }
 
@@ -37,12 +36,13 @@
         padding-right: var(--padding-768);
     }
     .contact__frame {
-        height: 300px;
+        height: auto;
         display: grid;
         grid-template-columns: auto auto;
+        gap: 0px; 
         row-gap: 16px;
         column-gap: 5vw;
-        border: 1px solid red;
+        border: 2px solid blue;
     }
 }
 
@@ -59,7 +59,6 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
         padding-top: 16px;
     }
 }
