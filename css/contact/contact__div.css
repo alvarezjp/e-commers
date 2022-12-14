@@ -25,7 +25,8 @@
 
 @media screen and (max-width: 768px) {
     .contact__div {
-        height: 240px;
+        width: 65vw;
+        height: auto;
         grid-row: 1/3;
     }
 }

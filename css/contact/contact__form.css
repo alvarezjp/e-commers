@@ -35,8 +35,6 @@
     font-size: 16px;
     color: #A2A2A2;
     box-sizing: border-box;
-    box-sizing: border-box;
-
 }
 
 .form__button {
@@ -77,6 +75,7 @@ z
     }
 
     .form__text {
+        width: auto;
         height: 82px;
     }
 
