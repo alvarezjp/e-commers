@@ -1,11 +1,9 @@
 .gallery__title {
-    width: 85vw;
-    height: 51px;
+    width: 1136px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
-    /* border: 1px solid green; */
 }
 
 .gallery__title h1 {
@@ -29,4 +27,32 @@
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1140px) {
+    .gallery__title {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__title h1 {
+        font-size: 22px;
+    }
+
+    .gallery__title button {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .gallery__title {
+        display: block;
+    }
+    .gallery__title h1 {
+        margin-bottom: 16px;
+    }
 }

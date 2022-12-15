@@ -5,21 +5,19 @@
     flex-direction: column;
     gap: 8px;
     box-sizing: border-box;
-    /* border: 1px solid blue; */
     
 }
 
 @media screen and (max-width: 768px) {
     .gallery__section{
-        display: none;
+        width: 164px;
     }
 }
 
 
 @media screen and (max-width: 360px) {
     .gallery__section{
-        width: 156px;
-        height: auto; 
+        width: 164px;
         
     }
     
