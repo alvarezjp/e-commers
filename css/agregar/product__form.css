@@ -1,19 +1,36 @@
 .product__form {
+    width: 559px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F5F5F5;
     gap: 16px;
-    margin: 64px 0 64px 0;
+    margin: 64px 0px;
 }
 
 .product__form h1 {
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #464646;
-
 }
 
+@media screen and (max-width: 768px) {
+
+    .product__form {
+        width: 100%;
+        align-items: flex-start;
+        margin: 32px 0px;
+    }
+
+    .product__form h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .product__form {
+        margin: 16px 0px;
+    }
+}

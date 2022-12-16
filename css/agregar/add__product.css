@@ -3,3 +3,28 @@
     justify-content: center;
     background-color: #F5F5F5;
 }
+
+@media screen and (max-width: 1140px) {
+    .add__product{
+        padding-left: var(--padding-1140);
+        padding-right: var(--padding-1140);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .add__product{
+        padding-left: var(--padding-768);
+        padding-right: var(--padding-768);
+    }
+
+
+}
+
+@media screen and (max-width: 460px) {
+    .add__product{
+        padding-left: var(--padding-460);
+        padding-right: var(--padding-460);
+
+    }
+}

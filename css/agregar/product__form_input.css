@@ -41,3 +41,15 @@
     color: #FFFFFF;
     border: none;
 }
+
+@media screen and (max-width: 768px) {
+    .product__form_input {
+        width: 100%;
+    }
+    .product__form_text {
+        width: 100%;
+    }
+    .product__form_button {
+        width: 100%;
+    }
+}
