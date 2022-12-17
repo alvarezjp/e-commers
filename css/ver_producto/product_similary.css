@@ -1,0 +1,51 @@
+.product_similary{
+    width: 1136px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.product_similary_titule {
+    width: 1136px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-bottom: 16px;
+}
+
+.product_similary_img {
+    width: 1136px;
+    display: flex;   
+    gap: 16px; 
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1140px) {
+    .product_similary{
+        width: auto;
+    }
+    .product_similary_titule {
+        width: auto;
+    }
+    .product_similary_img {
+        width: auto;
+        height: 260px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product_similary_titule {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .product_similary_img {
+        height: 588px;
+        display: grid;
+        grid-template-columns: 156px 156px 156px;
+
+    }
+}
