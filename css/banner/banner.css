@@ -3,6 +3,7 @@
     background-image: url('../../img/banner.png');
     background-size: auto;
     background-position: center;
+    background-repeat: no-repeat;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
