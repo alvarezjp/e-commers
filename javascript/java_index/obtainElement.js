@@ -1,10 +1,7 @@
-// En esta seccion obtengo la direccion de la imagen 
+
 
 export const obtain = (elemento) => {
-    let parent1 = elemento.target.parentElement; // Posicionarnos en el elemento padre
-    let parent2 = parent1.parentElement.firstElementChild; // posicionarnos en el hijo del padre del padre 1
-    let obtainImg = parent2.getAttribute("src") // obtener la direccion de la imagen que estoy seleccionando.
-    alert(obtainImg);
+    let obtainId = elemento.target.getAttribute("id"); // Me posiciono en el elemento seleccionado y luego obtengo el id con getattribute
+    localStorage.setItem("id",obtainId); // utilizamos el almacenamiento local (sharedArrayBuffer) para guardar el dato del ID
+
 }
-
-
