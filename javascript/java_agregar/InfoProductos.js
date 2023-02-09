@@ -14,35 +14,35 @@ let data = {
         descripcion: "Pop cabezones de darth vader, para que la oscuridad te acompañe "
     },
     star_wars_3: {
-        url: "./img/star_wars/Skill-2.png" ,
+        url: "./img/star_wars/Skill-2.png",
         categoria: "star__wars",
         nombre: "Yoda escondido",
         precio: "$ 5.000",
         descripcion: "Yoda que no quiere ser vendido, si lo compras se escondera y jamas lo encontraras"
     },
     star_wars_4: {
-        url: "./img/star_wars/Skill-3.png" ,
+        url: "./img/star_wars/Skill-3.png",
         categoria: "star__wars",
         nombre: "Los Stormtroopers",
         precio: "$ 12.500",
         descripcion: "stormtroopers coleccionable"
     },
     star_wars_5: {
-        url: "./img/star_wars/Skill-4.png" ,
+        url: "./img/star_wars/Skill-4.png",
         categoria: "star__wars",
         nombre: "Mini yoda",
         precio: "$ 300.000",
         descripcion: "Mini yoda de jugue para jugar "
     },
     star_wars_6: {
-        url: "./img/star_wars/Skill-5.png" ,
+        url: "./img/star_wars/Skill-5.png",
         categoria: "star__wars",
         nombre: "darth vader moderno",
         precio: "$3.000",
         descripcion: "darth vader moderno "
     },
     consola_1: {
-        url: "./img/consolas/Skill.png" ,
+        url: "./img/consolas/Skill.png",
         categoria: "consolas",
         nombre: "Joystick",
         precio: "$ 5.000",
@@ -124,12 +124,29 @@ let data = {
         nombre: "Disfraz pikachu",
         precio: "$ 55.050",
         descripcion: "Disfraz para convertirte en pikachu, tiene ventiladores internos"
-    } 
+    }
 }
 
-export const infoDatos = (select) =>{
+export const getData = (select) => {
     return data[select];
 }
 
+export const getCategory = (numberId) => {
+    let getCategoryId = [];
+    for (let id in data) {
+        if (data[id].categoria === data[numberId].categoria) {
+            getCategoryId.push(id);
+        }
+    }
+    return getCategoryId;
+}
 
+export const updateProductSimilary = (colectionId) => {
+        
+       for(let i in colectionId){
+        console.log(colectionId[i]);
+       }
+
+    
+}
 

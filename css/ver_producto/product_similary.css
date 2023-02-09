@@ -13,7 +13,7 @@
     margin-bottom: 16px;
 }
 
-.product_similary_img {
+.product_similary_section {
     width: 1136px;
     display: flex;   
     gap: 16px; 
@@ -28,7 +28,7 @@
     .product_similary_titule {
         width: auto;
     }
-    .product_similary_img {
+    .product_similary_section {
         width: auto;
         height: 260px;
         overflow-x: scroll;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 460px) {
-    .product_similary_img {
+    .product_similary_section {
         height: 588px;
         display: grid;
         grid-template-columns: 156px 156px 156px;
