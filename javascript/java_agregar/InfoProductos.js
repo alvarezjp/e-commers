@@ -143,10 +143,9 @@ export const getCategory = (numberId) => {
 
 export const updateProductSimilary = (colectionId) => {
         
-       for(let i in colectionId){
-        console.log(colectionId[i]);
+       
        }
 
     
-}
+
 
