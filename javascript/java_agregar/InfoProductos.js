@@ -86,7 +86,7 @@ let data = {
     diverso_1: {
         url: "./img/diversos/Skill.png",
         categoria: "diversos",
-        nombre: "Polera con letras japonesas",
+        nombre: "Polera japonesa",
         precio: "$ 2.990",
         descripcion: "Polera marca japonesa, que viene de china y se vende en chile"
     },
