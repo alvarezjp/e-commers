@@ -7,7 +7,6 @@ let galery = document.querySelector(".gallery");
 galery.addEventListener("click", (evento) => {
     if (evento.target.classList.contains("gallery__section__text__link")) {
         obtain(evento);   
-        alert("Se ejecuto el click");
         window.location.href = "http://127.0.0.1:5500/ver_producto.html";
     }
 });

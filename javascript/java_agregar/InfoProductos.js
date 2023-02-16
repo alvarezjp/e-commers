@@ -38,7 +38,7 @@ let data = {
         url: "./img/star_wars/Skill-5.png",
         categoria: "star__wars",
         nombre: "darth vader moderno",
-        precio: "$3.000",
+        precio: "$ 3.000",
         descripcion: "darth vader moderno "
     },
     consola_1: {
@@ -79,7 +79,7 @@ let data = {
     consola_6: {
         url: "./img/consolas/Skill-5.png",
         categoria: "consolas",
-        nombre: "Consolda retro",
+        nombre: "Consola retro",
         precio: "$ 3.500",
         descripcion: "Consola retro, viene con 3 juegos"
     },
