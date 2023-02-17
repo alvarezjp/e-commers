@@ -127,11 +127,11 @@ let data = {
     }
 }
 
-export const getData = (select) => {
+export const getData = (select) => { // Funcion que devuelve los datos del ID solicitado
     return data[select];
 }
 
-export const getCategory = (numberId) => {
+export const getCategory = (numberId) => { // Funcion que devuelve un arreglo con los ID de todo los productos que tienen la misma categoria que el ID solicitado
     let getCategoryId = [];
     for (let id in data) {
         if (data[id].categoria === data[numberId].categoria) {
@@ -140,13 +140,3 @@ export const getCategory = (numberId) => {
     }
     return getCategoryId;
 }
-
-export const updateProductSimilary = (colectionId) => {
-        
-       for(let i in colectionId){
-        console.log(colectionId[i]);
-       }
-
-    
-}
-
