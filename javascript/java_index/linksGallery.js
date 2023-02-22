@@ -25,4 +25,3 @@ galery.addEventListener("mouseover", (evento2) => {
         evento2.target.style.cursor = "default";
     }
 });
-
