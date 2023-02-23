@@ -1,3 +1,4 @@
+import { accessPag } from "./accessPag.js";
 import { checkData } from "./checkData.js";
 import { regexEmail } from "./regexEmail.js";
 
@@ -5,17 +6,26 @@ let email;
 let password;
 let inspectEmail;
 
+
 let divButton = document.querySelector(".login__form__button");
 
-divButton.addEventListener("click", (evento) => {
-    evento.preventDefault();
+divButton.addEventListener("click", (evento) => {    
+    evento.preventDefault(); // ver a futuro como no utilizarlo
+
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
     inspectEmail = regexEmail(email);
-    let prueba = checkData(email,password);
-    if(prueba){
-        alert("se activa la pagina");
+
+    if(inspectEmail){
+        if(checkData(email,password)){
+            accessPag();
+        }else{
+            alert("El correo o la contraseña son incorrectos");
+        }
+    } else{
+        alert("Error al escribir el email");
     }
+    
     
 });
 
