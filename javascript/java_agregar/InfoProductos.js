@@ -4,6 +4,7 @@ let data = {
         categoria: "star__wars",
         nombre: "Jarro Cabeza",
         precio: "$ 17.000",
+        code: "0000001",
         descripcion: "La cabeza taza es especial para tomar lechita en las mañanas, para que la fuerza te acompañe"
     },
     star_wars_2: {
