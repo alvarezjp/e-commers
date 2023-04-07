@@ -8,7 +8,9 @@ let txCode = document.querySelector("#txCode1");
 //Agrego el evento de click y una ves que se realiza el evento leo que tarjeta contenga la clase que yo quiero y asi realizo la accion
 galery.addEventListener("click", (evento) => {
     if (evento.target.classList.contains("img__dump")) {
-        alert("funciona el basurero");
+        let precionado = evento.target;
+        alert(precionado.parentNode.parentNode.getAttribute("id"));
+        
     }
     if (evento.target.classList.contains("img__pencil")) {
         alert("funciona el lapiz");
