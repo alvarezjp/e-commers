@@ -1,6 +1,0 @@
-1.1) Pensar como realizaremos la actualizacion de los datos, llevemoslo al papel y luego modifiquemos
-
-1) interaccion boton lapiz
-2) interaccion boton Papelera
-3) Ver el tema de los ID de los elementos.
-4)
