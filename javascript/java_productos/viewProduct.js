@@ -3,6 +3,7 @@ import { clientService } from "../service/cliente_service.js";
 const nuevoRecuadro = (url, nombre, precio, codigo, id) => {
     const linea = document.createElement("div");
     linea.className = "gallery__section";
+    linea.id = id;
     const contenido = `
                     <div class="gallery__section__img" style="background-image: url( ${url} );">
                         <img src="./img/productos/papelero.svg" alt="Cargando" class="img__dump">
@@ -24,7 +25,7 @@ const table = document.querySelector("[data-gallery]");
 
 clientService.listaProductos().then((data) => {
     data.forEach((product) => {
-        const nuevaLinea = nuevoRecuadro(product.url, product.nombre, product.precio, product.code);
+        const nuevaLinea = nuevoRecuadro(product.url, product.nombre, product.precio, product.code,product.id);
         table.appendChild(nuevaLinea);
     });
 }).catch((error) => alert("Ocurrio un Error "));

@@ -1,4 +1,4 @@
 export const obtainID = (elemento)=>{
     let fatherDiv = elemento.target.parentNode.parentNode;
-    return fatherDiv.getAttribute("id");
+    return alert("Se elimino el ID: "+fatherDiv.getAttribute("id"));
 }

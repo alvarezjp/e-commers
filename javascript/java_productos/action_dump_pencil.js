@@ -1,4 +1,5 @@
-// import { obtainID } from "./obtainId.js";
+import { obtainID } from "./obtainId.js";
+
 // import { deleteElement } from "./deleteElement.js";
 let galery = document.querySelector(".gallery__box");
 let txName = document.querySelector("#txName1");
@@ -10,7 +11,8 @@ let txCode = document.querySelector("#txCode1");
 //Agrego el evento de click y una ves que se realiza el evento leo que tarjeta contenga la clase que yo quiero y asi realizo la accion
 galery.addEventListener("click", (evento) => {
     if (evento.target.classList.contains("img__dump")) {
-        // deleteElement(obtainID(evento));
+        obtainID(evento);
+        
         alert("funciona aun");
         
     }
