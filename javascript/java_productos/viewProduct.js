@@ -10,9 +10,9 @@ const nuevoRecuadro = (url, nombre, precio, codigo, id) => {
                         <img src="./img/productos/lapiz.svg" alt="Cargando" class="img__pencil">
                     </div>
                     <div class="gallery__section__text">
-                        <p class="gallery__section__text__name">${nombre}</p>
-                        <p class="gallery__section__text__price">${precio}</p>
-                        <p class="gallery_section__text_code">#${codigo}</p>
+                        <p class="gallery__section__text__name" data-name-${id}>${nombre}</p>
+                        <p class="gallery__section__text__price" data-price-${id}>${precio}</p>
+                        <p class="gallery_section__text_code" data-code-${id}>#${codigo}</p>
                     </div>
                     `;
     linea.innerHTML = contenido;
