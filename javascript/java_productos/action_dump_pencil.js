@@ -1,4 +1,5 @@
 import { deleteProduct } from "./delete.js";
+import { editProduct } from "./editProduct.js";
 
 // import { deleteElement } from "./deleteElement.js";
 let galery = document.querySelector(".gallery__box");
@@ -11,20 +12,14 @@ let txCode = document.querySelector("[data-code-1]");
 galery.addEventListener("click", (evento) => {
     if (evento.target.classList.contains("img__dump")) {
         deleteProduct(evento);
+        
 
 
     }
     if (evento.target.classList.contains("img__pencil")) {
         alert("funciona el lapiz");
-        let txName = document.querySelector("[data-name-1");
-        let txPrice = document.querySelector("[data-price-1]");
-        let txCode = document.querySelector("[data-code-1]");
-        txName.contentEditable = true;
-        txPrice.contentEditable = true;
-        txCode.contentEditable = true;
-        txName.focus();
-        txPrice.focus();
-        txCode.focus();
+        editProduct(evento);
+        
 
     }
 
