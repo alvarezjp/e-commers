@@ -4,6 +4,7 @@ let data = {
         categoria: "star__wars",
         nombre: "Jarro Cabeza",
         precio: "$ 17.000",
+        code: "0000001",
         descripcion: "La cabeza taza es especial para tomar lechita en las mañanas, para que la fuerza te acompañe"
     },
     star_wars_2: {
@@ -127,11 +128,11 @@ let data = {
     }
 }
 
-export const getData = (select) => {
+export const getData = (select) => { // Funcion que devuelve los datos del ID solicitado
     return data[select];
 }
 
-export const getCategory = (numberId) => {
+export const getCategory = (numberId) => { // Funcion que devuelve un arreglo con los ID de todo los productos que tienen la misma categoria que el ID solicitado
     let getCategoryId = [];
     for (let id in data) {
         if (data[id].categoria === data[numberId].categoria) {
@@ -139,6 +140,7 @@ export const getCategory = (numberId) => {
         }
     }
     return getCategoryId;
+<<<<<<< HEAD
 }
 
 export const updateProductSimilary = (colectionId) => {
@@ -149,3 +151,6 @@ export const updateProductSimilary = (colectionId) => {
     
 
 
+=======
+}
+>>>>>>> b4d8cb193e8c2a91db6349e021d010fdd7729128

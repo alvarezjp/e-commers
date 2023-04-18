@@ -1,25 +1,25 @@
 import { obtain } from "../java_index/obtainElement.js";
-// import { prueba } from '../java_verProducto/modification_pag_seeProduct.js';
-//Leo la clase de la galeria para poder para poder utilizar la tecnica de delegacion de eventos
+
+//Leo la clase de productos_similares para poder utilizar la tecnica de delegacion de eventos
 let subCategory = document.querySelector(".product_similary_section");
 
-//Agrego el evento de click y una ves que se realiza el evento leo que tarjeta contenga la clase que yo quiero y asi realizo la accion
+//Agrego el evento de click y una ves que se realiza el evento leo el contenido de la tarjeta para ver la clase y asi ejecutar una accion.
 subCategory.addEventListener("click", (evento) => {
     if (evento.target.classList.contains("gallery__section__text__link")) {
+<<<<<<< HEAD
         obtain(evento);   
+=======
+        obtain(evento);
+>>>>>>> b4d8cb193e8c2a91db6349e021d010fdd7729128
         window.open("http://127.0.0.1:5500/ver_producto.html");
     }
-
-    alert("funciona");
 });
 
-
-//con el evento de si pasa el mause por encima para asi convertir el puntero en una manito sobre el elemento indicado, y que cambie a puntero nuevamente cuando sale de ahi.
-subCategory.addEventListener("mouseover",(evento2)=>{
-    if (evento2.target.classList.contains("gallery__section__text__link")){
-      evento2.target.style.cursor="pointer";
-      
-    }else{
-        evento2.target.style.cursor="default";
+//Evento de pasar el mause por encima. Para convertir el puntero en una manito sobre el elemento indicado, y que cambie a puntero nuevamente cuando sale de ahi.
+subCategory.addEventListener("mouseover", (evento2) => {
+    if (evento2.target.classList.contains("gallery__section__text__link")) {
+        evento2.target.style.cursor = "pointer";
+    } else {
+        evento2.target.style.cursor = "default";
     }
 });
