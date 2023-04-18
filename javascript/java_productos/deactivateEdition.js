@@ -13,5 +13,5 @@ txName.style.border= "none";
 txPrice.style.border= "none";
 txCode.style.border= "none";
 const datos = clientService.detalleCliente(idProduct);
-clientService.modificarProducto(datos.url,datos.categoria,txName.textContent,txPrice.textContent,txCode.textContent,datos.descripcion,idProduct).then(()=>{ alert("Producto modificado")});
+// clientService.modificarProducto(datos.url,datos.categoria,txName.textContent,txPrice.textContent,txCode.textContent,datos.descripcion,idProduct).then(()=>{ alert("Producto modificado")});
 }
