@@ -1,6 +1,6 @@
+import { blockId } from "./blockId.js";
 import { deleteProduct } from "./delete.js";
 // import { editProduct } from "./editProduct.js";
-import { blockId } from "./blockId.js";
 
 // import { deleteElement } from "./deleteElement.js";
 let galery = document.querySelector(".gallery__box");
@@ -18,10 +18,7 @@ galery.addEventListener("click", (evento) => {
 
     }
     if (evento.target.classList.contains("img__pencil")) {
-        alert("funciona el lapiz");
-        // editProduct(evento);
         blockId(evento);
-        
         
 
     }

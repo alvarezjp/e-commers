@@ -1,19 +1,21 @@
 import { obtainID } from "./obtainId.js";
-import { editProduct } from "./editProduct.js";
+import { activateEdition } from "./activateEdition.js";
+import { deactivateEdition } from "./deactivateEdition.js";
 
+let contador = 0;
+let elemento1, elemento2;
 export const blockId = (producto) => {
-    let contador;
-    let selection2 = 0;
-    const selection1 = obtainID( producto);
-    if (contador === 0) {
-        selection2 = obtainID(producto);
+    elemento2 = obtainID(producto);
+    if (contador == 0) {
+        elemento1 = obtainID(producto);
         contador++;
-        editProduct(producto);
-    }
-    else if (selection1 == selection2){
-        contador = 0;
-    };
+        activateEdition(producto);
+        console.log("entro al primer if");
 
-    return (console.log(selection1 +" <---> "+ selection2 +" <---> "+ contador));
+    } else if ((contador == 1) && (elemento1 == elemento2)) {
+        deactivateEdition(producto);
+        contador = 0;
+
+    } else { alert(" no puede modificar otro elemento sin antes terminar el ID: " + elemento1) }
 
 }
