@@ -6,25 +6,24 @@ const eliminarProductos = (id) => {
     { method: "delete", })
 }
 
-const modificarProducto = (url, categoria, nombre, precio, codigo, descripcion, id) => {
+const modificarProducto = (url, categoria, nombre, precio, code, descripcion, id) => {
   return fetch(`http://localhost:3000/data/${id}`,
     {
       method: "PUT",
       headers: { "Content-type": "Application/json" },
-      body: JSON.stringify({ url, categoria, nombre, precio, codigo, descripcion, id })
+      body: JSON.stringify({ url, categoria, nombre, precio, code, descripcion, id })
     })
     .then(respuesta => respuesta)
     .catch(err => alert("Sucedio un error en la modificacion"))
 };
 
 const detalleCliente = (id) => {
-  return fetch(`http://localhost:3000/data/${id}`)
-    .then((respuesta) => { respuesta.json() })
+  return fetch(`http://localhost:3000/data/${id}`).then((respuesta) =>  respuesta.json())
 }
 
 export const clientService = {
   listaProductos,
-  eliminarProductos,
+  eliminarProductos, 
   modificarProducto,
   detalleCliente,
 }
