@@ -47,12 +47,12 @@
     <section class="add__product">
         <form class="product__form" action="">
             <h1>Agregar nuevo producto</h1>
-            <input class="product__form_input" type="text" placeholder="URL de imagen">
-            <input class="product__form_input" type="text" placeholder="Categoria">
-            <input class="product__form_input" type="text" placeholder="Nombre de producto">
-            <input class="product__form_input" type="text" placeholder="Precio de producto">
-            <textarea class="product__form_text" placeholder="Descripcion del producto" name="" id="" cols="11" rows="5"></textarea>
-            <button class="product__form_button">Agregar producto</button>
+            <input class="product__form_input" type="text" data-url placeholder="URL de imagen" >
+            <input class="product__form_input" type="text" data-categoria placeholder="Categoria">
+            <input class="product__form_input" type="text" data-nombre placeholder="Nombre de producto">
+            <input class="product__form_input" type="text" data-precio placeholder="Precio de producto">
+            <textarea class="product__form_text" data-descripcion placeholder="Descripcion del producto" name="" id="" cols="11" rows="5"></textarea>
+            <button class="product__form_button" data-agregar >Agregar producto</button>
         </form>
     </section>
     <!-- Formulario de productos -->
@@ -88,6 +88,7 @@
             <p>2022</p>
         </div>
     </section>
+    <script type="module" src="./javascript/java_agregar/addButton.js"></script>
 </body>
 
 </html>
