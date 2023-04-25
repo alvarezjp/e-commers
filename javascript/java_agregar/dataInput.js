@@ -5,5 +5,12 @@ export const dataInput = () => {
     const price = document.querySelector("[data-precio]").value;
     const description = document.querySelector("[data-descripcion]").value;
 
-    return console.log(url+"---"+categoria+"---"+nameProduct+"---"+price+"---"+description);
+    const data = {
+        url: url,
+        categoria: categoria,
+        product: nameProduct,
+        price: price,
+        description: description
+    }
+    return data;
 }
