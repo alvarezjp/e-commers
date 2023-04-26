@@ -10,6 +10,6 @@ boton.addEventListener("click",(evento) =>{
     evento.preventDefault();
     let datos = dataInput();
     let check = dataVerification(datos);
-    loadData(check);
+    loadData(check,datos);
 
 })
