@@ -7,7 +7,7 @@ export const loadData = (verification, datos) => {
         const product =  datos.product;
         const price = datos.price;
         const description = datos.description;
-        console.log(url,categoria,product,price,description);
+        clientService.
     } else {
         console.log("no se cargaron los datos");
     }

@@ -17,6 +17,14 @@ const modificarProducto = (url, categoria, nombre, precio, code, descripcion, id
     .catch(err => alert("Sucedio un error en la modificacion"))
 };
 
+const agregarProducto = (url, categoria, nombre, precio, code, descripcion) => {
+  fetch ("http://localhost:3000/data",{
+    method: "POST",
+    headers: { "Content-type": "Application/json" },
+    body: JSON.stringify({ url, categoria, nombre, precio, code, descripcion, id: uuid.v4()})
+  })
+} 
+
 const detalleCliente = (id) => {
   return fetch(`http://localhost:3000/data/${id}`).then((respuesta) =>  respuesta.json())
 }
@@ -26,4 +34,5 @@ export const clientService = {
   eliminarProductos, 
   modificarProducto,
   detalleCliente,
+  agregarProducto,
 }
