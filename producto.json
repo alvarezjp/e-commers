@@ -6,7 +6,7 @@
       "nombre": "jarrito 2.0",
       "precio": "$ 15.000",
       "code": "#0000001",
-      "descripcion": "La cabeza taza es especial para tomar lechita en las mañanas, para que la fuerza te acompañe",
+      "descripcion": "La cabeza taza es especial para tomar lechita en las MAÑANAS, para que la fuerza te acompañe",
       "id": "1"
     },
     {
@@ -75,7 +75,7 @@
     {
       "url": "./img/consolas/Skill-2.png",
       "categoria": "consolas",
-      "nombre": "Xbox serie X",
+      "nombre": "Xbox serie Y",
       "precio": "$ 1.670.000",
       "code": "#0000009",
       "descripcion": "Xbox serie X nueva, sin usos",
@@ -161,6 +161,14 @@
       "code": "#0000018",
       "descripcion": "Disfraz para convertirte en pikachu, tiene ventiladores internos",
       "id": "18"
+    },
+    {
+      "url": "asdf",
+      "categoria": "sadf",
+      "nombre": "sadf",
+      "precio": "adsf",
+      "descripcion": "asdf",
+      "id": "8e593125-13a4-4506-aec8-9dc7bdd80e37"
     }
   ]
 }
