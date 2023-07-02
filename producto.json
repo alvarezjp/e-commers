@@ -163,12 +163,19 @@
       "id": "18"
     },
     {
-      "url": "asdf",
-      "categoria": "sadf",
-      "nombre": "sadf",
-      "precio": "adsf",
-      "descripcion": "asdf",
-      "id": "8e593125-13a4-4506-aec8-9dc7bdd80e37"
+      "url": "url imagen",
+      "categoria": "peluche ",
+      "nombre": "gatoperro",
+      "precio": "1000",
+      "code": 19,
+      "descripcion": "ni idea que poner",
+      "id": "50df9eb9-640a-4220-aee4-1baa379212da"
+    }
+  ],
+  "contador": [
+    {
+      "number": 19,
+      "id": "1"
     }
   ]
 }

@@ -45,14 +45,14 @@
     </section>
     <!-- LOGIN -->
     <section class="add__product">
-        <form class="product__form" action="">
+        <form class="product__form" action="" data-form>
             <h1>Agregar nuevo producto</h1>
-            <input class="product__form_input" type="text" data-url placeholder="URL de imagen"  >
-            <input class="product__form_input" type="text" data-categoria placeholder="Categoria">
-            <input class="product__form_input" type="text" data-nombre placeholder="Nombre de producto">
-            <input class="product__form_input" type="text" data-precio placeholder="Precio de producto">
-            <textarea class="product__form_text" data-descripcion placeholder="Descripcion del producto" name="" id="" cols="11" rows="5"></textarea>
-            <button class="product__form_button" data-agregar >Agregar producto</button>
+            <input class="product__form_input" type="text" data-url placeholder="URL de imagen"  required>
+            <input class="product__form_input" type="text" data-categoria placeholder="Categoria" required>
+            <input class="product__form_input" type="text" data-nombre placeholder="Nombre de producto" required>
+            <input class="product__form_input" type="text" data-precio placeholder="Precio de producto" required>
+            <textarea class="product__form_text" data-descripcion placeholder="Descripcion del producto" name="" id="" cols="11" rows="5" required></textarea>
+            <button type="submit" class="product__form_button" data-agregar >Agregar producto</button>
         </form>
     </section>
     <!-- Formulario de productos -->
@@ -75,7 +75,7 @@
                     <input class="form__input" type="text" name="nombre" placeholder="Nombre">
                     <textarea class="form__text" name="Mensaje" id="" cols="1" rows="1"
                         placeholder="Escribre tu mensaje"></textarea>
-                    <button class="form__button" type="submit">Enviar mensaje</button>
+                    <button  class="form__button" type="submit">Enviar mensaje</button>
                 </form>
             </div>
         </div>
