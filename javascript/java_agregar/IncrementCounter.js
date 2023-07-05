@@ -1,8 +1,7 @@
-import { saveCounter } from "./saveCounter.js";
-import { addCounter } from "./addCounter.js";
-
+import { clientService } from "../service/cliente_service.js";
 export const incrementCounter = () => {
-    saveCounter(addCounter());
-    return addCounter();
+    clientService.leerContador().then(function (data) {        
+        clientService.modificarContador(data+1).then(() => { 
+        });
+    });
 }
-
