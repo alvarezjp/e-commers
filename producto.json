@@ -2,7 +2,7 @@
   "data": [
     {
       "url": "./img/star_wars/Skill.png",
-      "categoria": "star__wars",
+      "categoria": "star_wars",
       "nombre": "jarrito 2.0",
       "precio": "$ 15.000",
       "code": "#1",
@@ -11,7 +11,7 @@
     },
     {
       "url": "./img/star_wars/Skill-1.png",
-      "categoria": "star__wars",
+      "categoria": "star_wars",
       "nombre": "Pop darth vader",
       "precio": "$ 19.000",
       "code": "#2",
@@ -20,7 +20,7 @@
     },
     {
       "url": "./img/star_wars/Skill-2.png",
-      "categoria": "star__wars",
+      "categoria": "star_wars",
       "nombre": "Yoda escondido",
       "precio": "$ 5.000",
       "code": "#3",
@@ -29,7 +29,7 @@
     },
     {
       "url": "./img/star_wars/Skill-3.png",
-      "categoria": "star__wars",
+      "categoria": "star_wars",
       "nombre": "Los Stormtroopers",
       "precio": "$ 12.500",
       "code": "#4",
@@ -38,7 +38,7 @@
     },
     {
       "url": "./img/star_wars/Skill-4.png",
-      "categoria": "star__wars",
+      "categoria": "star_wars",
       "nombre": "Mini yoda",
       "precio": "$ 300.000",
       "code": "#5",
@@ -47,7 +47,7 @@
     },
     {
       "url": "./img/star_wars/Skill-5.png",
-      "categoria": "star__wars",
+      "categoria": "star_wars",
       "nombre": "darth vader moderno",
       "precio": "$3.000",
       "code": "#6",
@@ -174,25 +174,25 @@
     {
       "url": "./img/dePrueba/perrito1.jpg",
       "categoria": "animal",
-      "nombre": "Otro perrito",
-      "precio": "$15.000",
-      "code": "#20",
+      "nombre": "perrito mano levantada",
+      "precio": "$17.000",
+      "code": "#23",
       "descripcion": "perrito feliz",
       "id": "8b54ea4a-5ef0-4ebe-9764-86c5d2a21096"
     },
     {
       "url": "./img/dePrueba/perrito2.jpg",
       "categoria": "animal",
-      "nombre": "perrito numero 3 ",
-      "precio": "$11.200",
-      "code": "#21",
-      "descripcion": "perrito pulento",
-      "id": "cedb210e-0763-46b6-ac27-76b8f32c9d69"
+      "nombre": "perrito bonita",
+      "precio": "$10.000",
+      "code": "#22",
+      "descripcion": "perrito bonito y peludito",
+      "id": "004b8f16-1858-4a86-8a13-333deff452f5"
     }
   ],
   "contador": [
     {
-      "number": 22,
+      "number": 23,
       "id": "1"
     }
   ]
