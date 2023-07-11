@@ -1,4 +1,4 @@
-export const categoryCreation=(categoria,titulo)=>{
+export const structureCategory=(categoria,titulo)=>{
  const linea = document.createElement("div");
  linea.setAttribute(`data-${categoria}`,``);
 
