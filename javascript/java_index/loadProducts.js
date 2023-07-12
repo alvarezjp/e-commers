@@ -8,7 +8,7 @@ export const loadProducts = () =>{
             data.forEach(product =>{                
                 if( (category == product.categoria) ){
                     const docu = document.querySelector(`[data-box-${category}]`)
-                    const newProduct=structureProduct(product.url,product.nombre,product.precio);
+                    const newProduct=structureProduct(product.url,product.nombre,product.precio,product.id);
                     docu.appendChild(newProduct);
                 }
             })

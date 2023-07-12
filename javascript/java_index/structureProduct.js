@@ -1,4 +1,4 @@
-export const structureProduct =(imagen,nombre,precio)=>{ 
+export const structureProduct =(imagen,nombre,precio,id)=>{ 
 const linea = document.createElement("div");
 
 const contenido = `
@@ -8,7 +8,7 @@ const contenido = `
             <div class="gallery__section__text">
                 <p class="gallery__section__text__name">${nombre}</p>
                 <p class="gallery__section__text__price">${precio}</p>
-                <a class="gallery__section__text__link" id="star_wars_1">Ver producto</a>
+                <a class="gallery__section__text__link" id="${id}">Ver producto</a>
             </div>
     </div>
 `;
