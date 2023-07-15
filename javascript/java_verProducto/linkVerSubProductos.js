@@ -1,4 +1,4 @@
-import { obtain } from "../java_index/obtainElement.js";
+// import { obtain } from "../java_index/obtainElement.js";
 
 //Leo la clase de productos_similares para poder utilizar la tecnica de delegacion de eventos
 let subCategory = document.querySelector(".product_similary_section");
@@ -6,7 +6,7 @@ let subCategory = document.querySelector(".product_similary_section");
 //Agrego el evento de click y una ves que se realiza el evento leo el contenido de la tarjeta para ver la clase y asi ejecutar una accion.
 subCategory.addEventListener("click", (evento) => {
     if (evento.target.classList.contains("gallery__section__text__link")) {
-        obtain(evento);
+        // obtain(evento);
         window.open("http://127.0.0.1:5500/ver_producto.html");
     }
 });
