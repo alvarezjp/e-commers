@@ -14,14 +14,13 @@ divButton.addEventListener("click", (evento) => {
     inspectEmail = regexEmail(email);
 
     checkData(email, password, inspectEmail);
+});
 
+divButton.addEventListener("mouseover", (evento2) => {
+    if ((evento2.target.classList.contains("login__form__button"))) {
+        evento2.target.style.cursor = "pointer";
 
-    divButton.addEventListener("mouseover", (evento2) => {
-        if ((evento2.target.classList.contains("login__form__button"))) {
-            evento2.target.style.cursor = "pointer";
-
-        } else {
-            evento2.target.style.cursor = "default";
-        }
-    });
+    } else {
+        evento2.target.style.cursor = "default";
+    }
 });

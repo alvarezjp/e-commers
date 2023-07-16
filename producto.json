@@ -30,7 +30,7 @@
     {
       "url": "./img/star_wars/Skill-3.png",
       "categoria": "star_wars",
-      "nombre": "Los Stormtroopers",
+      "nombre": "Los Stormtroopers blancos",
       "precio": "$ 12.500",
       "code": "#4",
       "descripcion": "stormtroopers coleccionable",
@@ -163,15 +163,6 @@
       "id": "18"
     },
     {
-      "url": "./img/dePrueba/perro.jpg",
-      "categoria": "animal",
-      "nombre": "zeus",
-      "precio": "$10.000",
-      "code": "#19",
-      "descripcion": "perrito lindo",
-      "id": "9475acd0-25f2-47f9-9e08-973753f49919"
-    },
-    {
       "url": "./img/dePrueba/perrito1.jpg",
       "categoria": "animal",
       "nombre": "perrito mano levantada",
@@ -179,15 +170,6 @@
       "code": "#23",
       "descripcion": "perrito feliz",
       "id": "8b54ea4a-5ef0-4ebe-9764-86c5d2a21096"
-    },
-    {
-      "url": "./img/dePrueba/perrito2.jpg",
-      "categoria": "perro",
-      "nombre": "perrito bonita",
-      "precio": "$10.000",
-      "code": "#22",
-      "descripcion": "perrito bonito y peludito",
-      "id": "004b8f16-1858-4a86-8a13-333deff452f5"
     }
   ],
   "contador": [
