@@ -1,4 +1,3 @@
-import { accessPag } from "./accessPag.js";
 import { checkData } from "./checkData.js";
 import { regexEmail } from "./regexEmail.js";
 
@@ -14,23 +13,15 @@ divButton.addEventListener("click", (evento) => {
     password = document.getElementById("password").value;
     inspectEmail = regexEmail(email);
 
-    if (inspectEmail) {
-        if (checkData(email, password)) {
-            accessPag();
+    checkData(email, password, inspectEmail);
+
+
+    divButton.addEventListener("mouseover", (evento2) => {
+        if ((evento2.target.classList.contains("login__form__button"))) {
+            evento2.target.style.cursor = "pointer";
+
         } else {
-            alert("El correo o la contraseña son incorrectos");
+            evento2.target.style.cursor = "default";
         }
-    } else {
-        alert("Error al escribir el email");
-    }
-});
-
-divButton.addEventListener("mouseover", (evento2) => {
-    if ((evento2.target.classList.contains("login__form__button"))) {
-        evento2.target.style.cursor = "pointer";
-
-    } else {
-        evento2.target.style.cursor = "default";
-    }
-
+    });
 });

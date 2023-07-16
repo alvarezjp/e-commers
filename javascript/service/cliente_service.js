@@ -1,6 +1,9 @@
 const listaProductos = () => fetch("http://localhost:3000/data")
   .then((respuesta) => respuesta.json());
 
+const user = () => fetch("http://localhost:3000/database")
+  .then((respuesta) => respuesta.json());
+
 const eliminarProductos = (id) => {
   return fetch(`http://localhost:3000/data/${id}`,
     { method: "delete", })
@@ -57,6 +60,7 @@ const modificarContador = (number) => {
 
 export const clientService = {
   listaProductos,
+  user,
   eliminarProductos,
   modificarProducto,
   detalleCliente,
